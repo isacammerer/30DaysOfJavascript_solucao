@@ -26,7 +26,6 @@ console.log(numbers.length)                 //6
 
 
 //indexOf - para checar se um item existe em uma array, se existir retorna o index se não retorna -1
-
 console.log(numbers.indexOf(0))             //-1
 console.log(numbers.indexOf(3))             //2
 console.log(numbers.indexOf(2))             //1
@@ -49,7 +48,6 @@ index === -1 ? console.log('this fruit does not exist in the array'): console.lo
 
 
 //lastIndexOf - informa a posição do último item da array, se existe retorna o index se não retorna -1
-
 const number = [1, 2, 3, 4, 4, 3, 2, 1]
 console.log(number.lastIndexOf(2))              //6
 console.log(number.lastIndexOf(0))              //-1
@@ -57,7 +55,6 @@ console.log(number.lastIndexOf(4))              //4
 
 
 //includes - para checar se existe o item na array, se existir retorna true se não retorna false
-
 const webTechs = [
     'HTML',
     'CSS',
@@ -67,7 +64,6 @@ const webTechs = [
     'Node',
     'MongoDB'
 ]
-
 console.log(webTechs.includes('Node'))          //true
 console.log(webTechs.includes('SQL'))           //false
 
@@ -79,7 +75,6 @@ console.log(animals.toString())                 //dogs,cats,birds
 
 
 //join - juntar elementos da array, o argumento informado no método join vai ser juntado na array e retornará como uma string
-
 console.log(webTechs.join())                    //HTML,CSS,JavaScript,React,Redux,Node,MongoDB
 console.log(webTechs.join(' # '))               //HTML # CSS # JavaScript # React # Redux # Node # MongoDB
 
