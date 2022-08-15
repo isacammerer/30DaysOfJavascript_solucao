@@ -5,10 +5,10 @@ console.log(fullName)
 //ReferenceError: lastName is not defined
 
 //SyntaxError - erro de syntax
-let square = 2 x 2
+//let square = 2 x 2
 console.log(square)
 
-console.log('Hello, world")
+//console.log('Hello, world")
 //SyntaxError: Unexpected identifier
 
 //TypeError - erro de digitação
